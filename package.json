@@ -1,0 +1,43 @@
+{
+  "name": "@feltpads/samples",
+  "version": "1.0.0",
+  "description": "Sample library for using in tandem with Strudel live coding",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/build-metadata.js"
+  },
+  "keywords": [
+    "strudel",
+    "samples",
+    "audio",
+    "live-coding",
+    "music",
+    "algorithmic",
+    "patterns"
+  ],
+  "author": "feltpads",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feltpads-bit/samples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/feltpads-bit/samples/issues"
+  },
+  "homepage": "https://github.com/feltpads-bit/samples#readme",
+  "files": [
+    "samples/",
+    "metadata/",
+    "index.js",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    },
+    "./samples/*": "./samples/*",
+    "./metadata": "./metadata/index.json"
+  }
+}
