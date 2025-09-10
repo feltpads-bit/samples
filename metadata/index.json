@@ -1,0 +1,374 @@
+{
+  "name": "@feltpads/samples",
+  "version": "1.0.0",
+  "description": "Sample library for Strudel live coding",
+  "totalSamples": 23,
+  "categories": {
+    "ambient": {
+      "drone_dark": {
+        "path": "./samples/ambient/drone_dark.wav",
+        "bpm": null,
+        "duration": 10,
+        "key": "E",
+        "tags": [
+          "ambient",
+          "atmospheric"
+        ],
+        "description": "Generated from drone_dark.wav"
+      },
+      "field_recording": {
+        "path": "./samples/ambient/field_recording.wav",
+        "bpm": null,
+        "duration": 10,
+        "key": "D",
+        "tags": [
+          "ambient",
+          "atmospheric"
+        ],
+        "description": "Generated from field_recording.wav"
+      },
+      "texture_rain": {
+        "path": "./samples/ambient/texture_rain.wav",
+        "bpm": null,
+        "duration": 10,
+        "key": "E",
+        "tags": [
+          "ambient",
+          "atmospheric"
+        ],
+        "description": "Generated from texture_rain.wav"
+      }
+    },
+    "bass": {
+      "bass_acid": {
+        "path": "./samples/bass/bass_acid.wav",
+        "bpm": 120,
+        "duration": 1,
+        "key": "D",
+        "tags": [
+          "bass",
+          "low",
+          "acid",
+          "resonant"
+        ],
+        "description": "Generated from bass_acid.wav"
+      },
+      "bass_reese": {
+        "path": "./samples/bass/bass_reese.wav",
+        "bpm": 120,
+        "duration": 1,
+        "key": "E",
+        "tags": [
+          "bass",
+          "low"
+        ],
+        "description": "Generated from bass_reese.wav"
+      },
+      "bass_sub": {
+        "path": "./samples/bass/bass_sub.wav",
+        "bpm": 120,
+        "duration": 1,
+        "key": "B",
+        "tags": [
+          "bass",
+          "low"
+        ],
+        "description": "Generated from bass_sub.wav"
+      }
+    },
+    "drums": {
+      "hihat_closed": {
+        "path": "./samples/drums/hihat_closed.wav",
+        "bpm": 120,
+        "duration": 0.5,
+        "key": "D",
+        "tags": [
+          "drum",
+          "percussive"
+        ],
+        "description": "Generated from hihat_closed.wav"
+      },
+      "hihat_open": {
+        "path": "./samples/drums/hihat_open.wav",
+        "bpm": 120,
+        "duration": 0.5,
+        "key": "C",
+        "tags": [
+          "drum",
+          "percussive"
+        ],
+        "description": "Generated from hihat_open.wav"
+      },
+      "kick_808": {
+        "path": "./samples/drums/kick_808.wav",
+        "bpm": 120,
+        "duration": 0.5,
+        "key": "C",
+        "tags": [
+          "drum",
+          "percussive",
+          "808",
+          "sub"
+        ],
+        "description": "Generated from kick_808.wav"
+      },
+      "kick_analog": {
+        "path": "./samples/drums/kick_analog.wav",
+        "bpm": 120,
+        "duration": 0.5,
+        "key": "G",
+        "tags": [
+          "drum",
+          "percussive",
+          "analog",
+          "vintage"
+        ],
+        "description": "Generated from kick_analog.wav"
+      },
+      "snare_crisp": {
+        "path": "./samples/drums/snare_crisp.wav",
+        "bpm": 120,
+        "duration": 0.5,
+        "key": "E",
+        "tags": [
+          "drum",
+          "percussive",
+          "crisp",
+          "sharp"
+        ],
+        "description": "Generated from snare_crisp.wav"
+      }
+    },
+    "fx": {
+      "crash_reverse": {
+        "path": "./samples/fx/crash_reverse.wav",
+        "bpm": 120,
+        "duration": 2,
+        "key": "E",
+        "tags": [
+          "fx",
+          "effect"
+        ],
+        "description": "Generated from crash_reverse.wav"
+      },
+      "glitch_stutter": {
+        "path": "./samples/fx/glitch_stutter.wav",
+        "bpm": 120,
+        "duration": 2,
+        "key": null,
+        "tags": [
+          "fx",
+          "effect",
+          "glitch",
+          "digital"
+        ],
+        "description": "Generated from glitch_stutter.wav"
+      },
+      "riser_white": {
+        "path": "./samples/fx/riser_white.wav",
+        "bpm": 120,
+        "duration": 2,
+        "key": "E",
+        "tags": [
+          "fx",
+          "effect",
+          "riser",
+          "sweep"
+        ],
+        "description": "Generated from riser_white.wav"
+      },
+      "vocal_chop": {
+        "path": "./samples/fx/vocal_chop.wav",
+        "bpm": 120,
+        "duration": 2,
+        "key": null,
+        "tags": [
+          "fx",
+          "effect"
+        ],
+        "description": "Generated from vocal_chop.wav"
+      }
+    },
+    "melody": {
+      "arp_sequence": {
+        "path": "./samples/melody/arp_sequence.wav",
+        "bpm": 120,
+        "duration": 2,
+        "key": "E",
+        "tags": [
+          "melodic",
+          "harmonic"
+        ],
+        "description": "Generated from arp_sequence.wav"
+      },
+      "bell_crystal": {
+        "path": "./samples/melody/bell_crystal.wav",
+        "bpm": 120,
+        "duration": 2,
+        "key": "C",
+        "tags": [
+          "melodic",
+          "harmonic",
+          "bell",
+          "metallic"
+        ],
+        "description": "Generated from bell_crystal.wav"
+      },
+      "lead_pluck": {
+        "path": "./samples/melody/lead_pluck.wav",
+        "bpm": 120,
+        "duration": 2,
+        "key": "D",
+        "tags": [
+          "melodic",
+          "harmonic",
+          "pluck",
+          "bright"
+        ],
+        "description": "Generated from lead_pluck.wav"
+      },
+      "pad_warm": {
+        "path": "./samples/melody/pad_warm.wav",
+        "bpm": 120,
+        "duration": 2,
+        "key": "D",
+        "tags": [
+          "melodic",
+          "harmonic",
+          "pad",
+          "warm"
+        ],
+        "description": "Generated from pad_warm.wav"
+      }
+    },
+    "percussion": {
+      "conga_high": {
+        "path": "./samples/percussion/conga_high.wav",
+        "bpm": 120,
+        "duration": 0.8,
+        "key": "A",
+        "tags": [
+          "percussion",
+          "rhythm"
+        ],
+        "description": "Generated from conga_high.wav"
+      },
+      "conga_low": {
+        "path": "./samples/percussion/conga_low.wav",
+        "bpm": 120,
+        "duration": 0.8,
+        "key": "A",
+        "tags": [
+          "percussion",
+          "rhythm"
+        ],
+        "description": "Generated from conga_low.wav"
+      },
+      "cowbell_latin": {
+        "path": "./samples/percussion/cowbell_latin.wav",
+        "bpm": 120,
+        "duration": 0.8,
+        "key": null,
+        "tags": [
+          "percussion",
+          "rhythm",
+          "bell",
+          "metallic"
+        ],
+        "description": "Generated from cowbell_latin.wav"
+      },
+      "shaker_loop": {
+        "path": "./samples/percussion/shaker_loop.wav",
+        "bpm": 120,
+        "duration": 0.8,
+        "key": null,
+        "tags": [
+          "percussion",
+          "rhythm"
+        ],
+        "description": "Generated from shaker_loop.wav"
+      }
+    }
+  },
+  "generatedAt": "2025-09-10T15:40:57.422Z",
+  "tags": {
+    "all": [
+      "808",
+      "acid",
+      "ambient",
+      "analog",
+      "atmospheric",
+      "bass",
+      "bell",
+      "bright",
+      "crisp",
+      "digital",
+      "drum",
+      "effect",
+      "fx",
+      "glitch",
+      "harmonic",
+      "low",
+      "melodic",
+      "metallic",
+      "pad",
+      "percussion",
+      "percussive",
+      "pluck",
+      "resonant",
+      "rhythm",
+      "riser",
+      "sharp",
+      "sub",
+      "sweep",
+      "vintage",
+      "warm"
+    ],
+    "byCategory": {
+      "ambient": [
+        "ambient",
+        "atmospheric"
+      ],
+      "bass": [
+        "acid",
+        "bass",
+        "low",
+        "resonant"
+      ],
+      "drums": [
+        "808",
+        "analog",
+        "crisp",
+        "drum",
+        "percussive",
+        "sharp",
+        "sub",
+        "vintage"
+      ],
+      "fx": [
+        "digital",
+        "effect",
+        "fx",
+        "glitch",
+        "riser",
+        "sweep"
+      ],
+      "melody": [
+        "bell",
+        "bright",
+        "harmonic",
+        "melodic",
+        "metallic",
+        "pad",
+        "pluck",
+        "warm"
+      ],
+      "percussion": [
+        "bell",
+        "metallic",
+        "percussion",
+        "rhythm"
+      ]
+    }
+  }
+}
